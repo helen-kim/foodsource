@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Time posted:</strong>
+  <%= @question.time_posted %>
+</p>
+
+<p>
+  <strong>Expertise:</strong>
+  <%= @question.expertise %>
+</p>
+
+<p>
+  <strong>Time range:</strong>
+  <%= @question.time_range %>
+</p>
+
+<p>
+  <strong>Ingredients:</strong>
+  <%= @question.ingredients %>
+</p>
+
+<p>
+  <strong>Occasion:</strong>
+  <%= @question.occasion %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @question.notes %>
+</p>
+
+<%= link_to 'Edit', edit_question_path(@question) %> |
+<%= link_to 'Back', questions_path %>
