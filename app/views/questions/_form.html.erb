@@ -12,20 +12,16 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :time_posted %><br>
-    <%= f.datetime_select :time_posted %>
+    <%= f.label :ingredients %><br>
+    <%= f.text_field :ingredients %>
   </div>
   <div class="field">
     <%= f.label :expertise %><br>
-    <%= f.number_field :expertise %>
+    <%= f.select :expertise, [1, 2, 3], prompt: "Pick your level of expertise in cooking" %>
   </div>
   <div class="field">
     <%= f.label :time_range %><br>
     <%= f.number_field :time_range %>
-  </div>
-  <div class="field">
-    <%= f.label :ingredients %><br>
-    <%= f.text_field :ingredients %>
   </div>
   <div class="field">
     <%= f.label :occasion %><br>
