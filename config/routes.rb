@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resources :questions
 
   get 'home' => 'home#home', as: :home
-
+  get 'votes/:id/vote_up' => 'votes#vote_up', as: 'vote_up'
     
   # Set the root url
   root :to => 'home#home' 
