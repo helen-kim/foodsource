@@ -7,5 +7,4 @@ class Answer < ActiveRecord::Base
 	# Validations
 	validates_presence_of :text, :question_answered 
 
-
 end
