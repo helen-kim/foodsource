@@ -8,3 +8,6 @@
 	<h6>other notes: </h6>
 		<%= @question.notes %>
 </fieldset>
+<%= link_to(new_answer_path(question_id: @question.id), id: 'question_answer', class: 'button tiny radius', remote: true) do %>
+    ANSWER
+<% end %> 
