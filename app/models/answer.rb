@@ -7,6 +7,7 @@ class Answer < ActiveRecord::Base
 	has_many :comments
 
 	# Validations
+
 	validates_presence_of :text, :question_id 
 
 	def set_time_answered
