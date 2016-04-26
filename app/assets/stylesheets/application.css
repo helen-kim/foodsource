@@ -71,7 +71,6 @@ img {
 	border-color: #800144;
 }
 
-<<<<<<< HEAD
 #card {
 	height: 30%;
 	width: 33%;
@@ -89,8 +88,6 @@ img {
 
 #card_bottom{
 	position: right;
-=======
-.centered{
 	float: center;
 	padding-top: 50%;
 }
@@ -132,5 +129,4 @@ img {
 	background-color: #FFF;
 	color: #9A587B;
 	border-color: #9A587B;
->>>>>>> 90a0736952b7cb7cf55f4761d0241ca41dc7ea7e
 }
