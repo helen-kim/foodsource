@@ -68,3 +68,22 @@ img {
 	border: 1px solid;
 	border-color: #800144;
 }
+
+#card {
+	height: 30%;
+	width: 33%;
+	float: left;
+	padding: 5%;
+}
+
+#card table{
+	border-width: 0px;
+}
+
+#card_ingredients {
+	font-size: 20px;
+}
+
+#card_bottom{
+	position: right;
+}

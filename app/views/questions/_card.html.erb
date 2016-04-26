@@ -1,0 +1,26 @@
+<% @questions.each do |question| %>
+
+<div id="card">
+<fieldset>
+	<div id="card_ingredients">
+		<%= question.ingredients %><br><br>
+	</div>
+	<table id="card_details">
+		<tr><%= "LEVEL: " + "#{question.difficulty_level}" %></tr>&nbsp;.&nbsp;
+
+		<tr><%= question.occasion %></tr>&nbsp;.&nbsp;
+
+		<tr><%= "#{question.time_range}" + " min" %></tr>
+	</table>
+	<div id="card bottom">
+		<% unless question.time_posted.nil? %>
+			<%= question.time_posted.to_time %> 
+		<% end %>
+	</div>
+</fieldset>
+<%= link_to "ANSWER", new_answer_path %> 
+
+
+</div>
+
+<% end %>
