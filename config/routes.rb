@@ -2,6 +2,12 @@ Rails.application.routes.draw do
   resources :comments
   resources :answers
   resources :questions
+
+  get 'home' => 'home#home', as: :home
+
+    
+  # Set the root url
+  root :to => 'home#home' 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

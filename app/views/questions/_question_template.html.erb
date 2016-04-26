@@ -1,0 +1,10 @@
+<h3>QUESTION</h3>
+<fieldset>
+	<h5>I have: </h5>
+		<%= @question.ingredients %>
+	<h5> What can I make? </h5>
+	</br></br>
+	<%= "#{@question.difficulty_level}" + "  .  " + "#{@question.occasion}" %>
+	<h6>other notes: </h6>
+		<%= @question.notes %>
+</fieldset>

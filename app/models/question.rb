@@ -1,6 +1,7 @@
 class Question < ActiveRecord::Base
 
 	before_save :set_time_posted
+	
 	# Relationships
 	has_many :answers
 	has_many :comments, through: :answers

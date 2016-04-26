@@ -17,11 +17,11 @@
   </div>
   <div class="field">
     <%= f.label :difficulty_level %><br>
-    <%= f.select :difficulty_level, [1, 2, 3], prompt: "Pick your level of expertise in cooking" %>
+    <%= f.select :difficulty_level, [1, 2, 3], prompt: "Pick the level of difficulty" %>
   </div>
   <div class="field">
     <%= f.label :time_range %><br>
-    <%= f.number_field :time_range %>
+    <%= f.number_field :time_range, prompt: "How " %>
   </div>
   <div class="field">
     <%= f.label :occasion %><br>
