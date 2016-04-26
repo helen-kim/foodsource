@@ -1,0 +1,4 @@
+<div class='post-<%=@post.id%>' >
+ <h3><%= @post.votes.count %> votes</h3><br />
+ <%= link_to "Vote Up", vote_up_path(@post), :remote => true %>
+</div>

@@ -6,9 +6,8 @@ class Question < ActiveRecord::Base
 	has_many :answers
 	has_many :comments, through: :answers
 
-	validates_presence_of :expertise, :ingredients 
-
-
+	validates_presence_of :difficulty_level, :ingredients 
+	
 	private
 
 	def set_time_posted
