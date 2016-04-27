@@ -27,7 +27,7 @@ gem 'foundation-rails', '5.5.3.2'
 gem 'simple_form'
 gem 'jquery-ui-rails', '4.1.1'
 gem 'nested_form','0.3.2'
-
+gem 'cowsay'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
