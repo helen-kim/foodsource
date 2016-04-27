@@ -1,6 +1,6 @@
 <%= simple_form_for @answer, html: { :class => 'form-horizontal' }, remote: true do |f| %>
  
-  <%= f.input :text, label: "Suggestions", input_html: {class: "avg"} %>
+  <%= f.input :text, label: "Recipe Suggestions (links, personal recipes, etc.)", input_html: {class: "avg"} %>
   <%= f.input :question_id, as: :hidden, input_html: { value: params[:question_id] } %>
 
 
