@@ -1,13 +1,23 @@
-<h3>QUESTION</h3>
+<h3 id="question-title">What can I make?</h3>
 <fieldset>
-	<h5>I have: </h5>
-		<%= @question.ingredients %>
-	<h5> What can I make? </h5>
-	</br></br>
-	<%= "#{@question.difficulty_level}" + "  .  " + "#{@question.occasion}" %>
-	<h6>other notes: </h6>
+	Ingredients: <%= @question.ingredients %>
+	<% if @question.difficulty_level == 1 %>
+		<div>I am a beginner cook looking to cook for <%="#{@question.occasion}" %> &nbsp;</div>
+	<% end %>
+	<% if @question.difficulty_level == 2 %>
+		<div>I am an intermediate cook looking to cook for <%="#{@question.occasion}" %> &nbsp;</div>
+	<% end %>
+	<% if @question.difficulty_level == 3 %>
+		<div>I am an advanced cook looking to cook for <%="#{@question.occasion}" %> &nbsp;</div> 
+	<% end %>
+
+	
+
+
+	<br>
+	<h6>Other notes: </h6>
 		<%= @question.notes %>
 </fieldset>
 <%= link_to(new_answer_path(question_id: @question.id), id: 'question_answer', remote: true) do %>
-    ANSWER
+    Suggest Recipe
 <% end %> 
