@@ -230,7 +230,20 @@ img {
 	padding-top: 20px;
 }
 
-#question-form {
+#new-question-sub {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 5px;
+}
+
+#question-form {
 	display: block;
+	margin: 0 auto;
+}
+
+#question-form p {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	margin-size: -5px;
 }

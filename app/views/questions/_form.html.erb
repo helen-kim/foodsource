@@ -11,27 +11,35 @@
     </div>
   <% end %>
 
-  <div class="field large-8 columns">
-    <%= f.label :ingredients %><br>
+  <div class="field">
+    <p>What main ingredients do you want to use?</p>
     <%= f.text_field :ingredients %>
   </div>
-  <div class="field large-8 columns">
-    <%= f.label :difficulty_level %><br>
-    <%= f.select :difficulty_level, [1, 2, 3], prompt: "Pick the level of difficulty" %>
+
+  <div class="field large-6 columns">
+    <p>Choose 1-beginner, 2-intermediate, 3-master chef</p>
+    <%= f.select :difficulty_level, [1, 2, 3], prompt: "Expertise" %>
   </div>
-  <div class="field large-8 columns">
-    <%= f.label :time_range %><br>
+
+
+  <div class="field large-6 columns">
+    <p>What's the maximum minutes you want to spend on this dish?</p>
     <%= f.number_field :time_range, prompt: "How " %>
   </div>
-  <div class="field large-8 columns">
-    <%= f.label :occasion %><br>
+
+
+  <div class="field">
+    <p>What's the occassion?</p>
     <%= f.text_field :occasion %>
   </div>
-  <div class="field large-8 columns">
-    <%= f.label :notes %><br>
+
+
+  <div class="field">
+    <p>Any other notes or requests for the recipe?</p>
     <%= f.text_area :notes %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
+
+
+  <%= submit_tag "Submit", class: "button round" %>
   </div>
 <% end %>
