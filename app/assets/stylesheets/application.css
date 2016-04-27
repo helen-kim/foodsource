@@ -49,13 +49,26 @@ img {
 	padding-bottom: 7px;
 }
 
+.actions {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	padding: 3px;
+	color: #800144;
+}
+
 #question{
 	width: 90%;
 	padding-left: 10%;
 }
 
+#question fieldset{
+	border-width: 2px;
+	border-color: #800144;
+}
 #question h3 {
 	padding-left: 5%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #800144;
 }
 
 #question a {
@@ -71,8 +84,18 @@ img {
 	border-color: #800144;
 }
 
+#index_title{
+	padding-top: 20px;
+	text-align: center;
+}
+
+#index_title h3{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #800144;
+}
+
 #card {
-	height: 30%;
+	height: 250px;
 	width: 33%;
 	float: left;
 	padding: 5%;
@@ -82,16 +105,37 @@ img {
 	border-width: 0px;
 }
 
+#card fieldset {
+	height: 160px;
+	border-width: 2px;
+	border-color: #800144;
+}
+
 #card_ingredients {
 	font-size: 20px;
 }
 
 #card_bottom{
-	position: right;
+	vertical-align: bottom;
 	float: center;
 	padding-top: 50%;
+
 }
 
+#card a{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	padding: 3px;
+	color: #800144;
+}
+
+#card a:hover {
+	background-color: #FFF;
+	border: 1px solid;
+	border-color: #800144;
+}
+
+<<<<<<< HEAD
 #welcome {
 	padding-top: 75px;
 	text-align: center;
