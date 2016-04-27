@@ -135,14 +135,17 @@ img {
 	border-color: #800144;
 }
 
-<<<<<<< HEAD
 #welcome {
 	padding-top: 75px;
 	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
 }
 
 #welcome-sub {
 	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
 }
 
 #underline {
@@ -151,6 +154,7 @@ img {
 }
 
 .slider {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   height: 18px;
   font-size: 16px;
   overflow: hidden;
