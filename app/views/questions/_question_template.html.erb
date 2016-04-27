@@ -14,7 +14,14 @@
 		<% if @question.difficulty_level == 3 %>
 			<div>Cooking level: Expert &nbsp;</div> 
 		<% end %>
-		Other notes: <%= @question.notes %>
+		<% if !@question.time_range.nil? %>
+			Cooking time: <%= @question.time_range%> min
+		<% end %>
+		<br>
+		<% if !@question.notes.nil? %>
+			Other notes: <%= @question.notes %>
+		<% end %>
+		
 	</div>
 		
 </fieldset>
