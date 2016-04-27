@@ -221,3 +221,29 @@ img {
 	color: #9A587B;
 	border-color: #9A587B;
 }
+
+#new-question {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #800144;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+#new-question-sub {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 5px;
+}
+
+#question-form {
+	display: block;
+	margin: 0 auto;
+}
+
+#question-form p {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	margin-size: -5px;
+}
