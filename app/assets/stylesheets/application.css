@@ -49,6 +49,13 @@ img {
 	padding-bottom: 7px;
 }
 
+.actions {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	padding: 3px;
+	color: #800144;
+}
+
 #question{
 	width: 90%;
 	padding-left: 10%;
@@ -62,7 +69,6 @@ img {
 	padding-left: 5%;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: #800144;
-
 }
 
 #question a {
@@ -110,9 +116,10 @@ img {
 }
 
 #card_bottom{
-	position: right;
+	vertical-align: bottom;
 	float: center;
 	padding-top: 50%;
+
 }
 
 #card a{
