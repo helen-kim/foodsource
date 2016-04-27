@@ -92,18 +92,62 @@ img {
 	padding-top: 50%;
 }
 
-.centered a{
+#welcome {
+	padding-top: 75px;
+	text-align: center;
+}
+
+#welcome-sub {
+	text-align: center;
+}
+
+#underline {
+	text-align: center;
+	margin-top: -10px;
+}
+
+.slider {
+  height: 18px;
+  font-size: 16px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.slider div, .slider div p {
+  margin: 0;
+  padding: 0;
+}
+
+.slider div {
+  animation: slide 10s 2s infinite;
+}
+
+@keyframes slide {
+  0% { margin-top: 0; }
+  25% { margin-top: -18px; }
+  50% { margin-top: -36px; }
+  75% { margin-top: -54px; }
+  100% { margin-top: 0; }
+}
+
+.centered {
 	float: center;
+	padding-top: 40%;
+
+}
+
+.centered a{
 	font-size: 40px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	padding: 100px;
 	color: #800144;
+	margin-top: 100px;
 	border: 3px solid;
 	border-color: #800144;
 }
 .ask {
 	float: center;
-	padding-top: 50%;
+	padding-top: 40%;
 }
 
 .ask a{
